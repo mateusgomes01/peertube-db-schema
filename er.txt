@@ -1,0 +1,29 @@
+graph ER {
+//	layout=neato
+	node [shape=box]; user; channel; video; comment;
+	node [shape=ellipse]; {node [label="name"] name0; name1; name2;}; {node [label="created_at"] created_at0; created_at1; created_at2; created_at3;}
+		email; video_file;
+	node [shape=diamond,style=filled,color=lightgrey]; {node [label="has"] has0; has1; has2;}
+		subscribes
+
+	name0 -- user;
+	created_at0 -- user;
+	user -- email;
+	user -- has0 [label="n",len=1.00];
+	has0 -- channel [label="n", len=1.00];
+	user -- subscribes [label="n" len=2.00];
+	subscribes -- user [label="m" len=2.00];
+	channel -- name1;
+	channel -- created_at1;
+	channel -- has1 [label="1",len=1.00];
+	has1 -- video [label="n",len=1.00];
+	video -- name2;
+	video -- created_at2;
+	video -- video_file;
+	video -- has2 [label="1", len=1.00];
+	has2 -- comment [label="n", len=1.00];
+	comment -- created_at3;
+
+	label = "\n\nEntity Relation Diagram\ndrawn by NEATO";
+	fontsize=20;
+}
