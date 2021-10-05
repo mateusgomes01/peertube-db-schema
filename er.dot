@@ -3,7 +3,7 @@ graph ER {
 	node [shape=box]; user; channel; video; comment;
 	node [shape=ellipse]; {node [label="name"] name0; name1; name2;}; {node [label="created_at"] created_at0; created_at1; created_at2; created_at3;}
 		email; video_file;
-	node [shape=diamond,style=filled,color=lightgrey]; {node [label="has"] has0; has1; has2;}
+	node [shae=diamond,style=filled,color=lightgrey]; {node [label="has"] has0; has1; has2;}
 		subscribes
 
 	name0 -- user;
@@ -27,3 +27,4 @@ graph ER {
 	label = "\n\nEntity Relation Diagram\ndrawn by NEATO";
 	fontsize=20;
 }
+p
