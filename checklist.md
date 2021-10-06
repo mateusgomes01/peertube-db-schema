@@ -6,7 +6,7 @@ Para que os projetos alcancem a nota máxima (10 - dez), esses devem ter os segu
 
 - Relacionamento parcial-total
 - Relacionamento parcial-parcial
-- Relacionamento identificador (Entidade Fraca)
+- ~Relacionamento identificador (Entidade Fraca)~
 - ~Relacionamento Unário (Auto Relacionamento)~
 - ~Relacionamento 1:1 ou 1:N~
 - ~Relacionamento N:M~
