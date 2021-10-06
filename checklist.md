@@ -1,13 +1,13 @@
 Para que os projetos alcancem a nota máxima (10 - dez), esses devem ter os seguintes conceitos, os quais podem ser combinados em uma única construção.
 
-- Atributo composto
+- ~Atributo composto
 - Atributo discriminador em relacionamento
 - ~Atributo multivalorado~
 
 - Relacionamento parcial-total
 - Relacionamento parcial-parcial
 - Relacionamento identificador (Entidade Fraca)
-- Relacionamento Unário (Auto Relacionamento)
+- ~Relacionamento Unário (Auto Relacionamento)
 - ~Relacionamento 1:1 ou 1:N~
 - ~Relacionamento N:M~
 - ~Relacionamento Binário~
