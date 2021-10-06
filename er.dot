@@ -3,7 +3,7 @@ graph ER {
 	node [shape=box]; user; channel; video; comment; admin; donation
 	node [shape=ellipse]; {node [label="name"] name0; name1; name2;}; {node [label="created_at"] created_at0; created_at1; created_at2; created_at3; created_at4}
 		email; video_file; value;
-	node [shape=diamond,style=filled,color=lightgrey]; {node [label="has"] has0; has1; has2;}
+	node [shape=diamond,style=filled,color=lightgrey]; {node [label="has"] has1; has2;}
 		subscribes; donates; delete; owns
 	node [shape=ellipse,height=.5, width=0.5]; D;
 
