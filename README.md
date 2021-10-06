@@ -25,11 +25,13 @@ The current release of Graphviz can be downloaded [here](https://graphviz.org/do
 
 Documentation is available in the released package and from [here](https://graphviz.org/documentation).
 
+### More
+
 You can read more about graphviz and the dot language in the official website: [graphviz.org](graphviz.org)
 
 
 ## Compiling the dot language
 
-Use the following command on terminal to compile a ```.dot``` file to a ```.pdf``` file and save the output stream on a local pdf file on you computer:
+Use the following command on terminal to compile a ```.dot``` file to a ```.pdf``` file and save the output stream to a local pdf file on you computer:
 
 ```dot -Tpdf er.dot > er.pdf```
