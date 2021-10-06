@@ -11,4 +11,4 @@ More about peertube:
 
 Use the following command on terminal to compile a .dot file to a .pdf file and output it to a stream
 
-```dot -Tpdf <filename>.dot > <filename>.pdf```
+```dot -Tpdf er.dot > er.pdf```
