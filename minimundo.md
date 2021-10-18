@@ -7,7 +7,8 @@
 - A user has an email, created date and a username. 
 - A video has a title, created date and a video file.
 
-- One user may subscribe to many channels. One channel may be subscribed by many users.
+- One user may subscribe to many channels. 
+- One channel may be subscribed by many users.
 
 - One video can have many comments. 
 - A comment may belongs to one video only. 
@@ -17,7 +18,7 @@
 - A donation has a value.
 - A comment has an author, created_at and a text.
 
-- A user may be a Common user or and Admin.
+- A user may be a common user or and Admin.
 - An Admin may delete many users and a user may be deleted by one admin.
 
 - A user may makes many comments.
