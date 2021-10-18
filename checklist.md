@@ -4,8 +4,8 @@ Para que os projetos alcancem a nota máxima (10 - dez), esses devem ter os segu
 - Atributo discriminador em relacionamento
 - ~Atributo multivalorado~
 
-- Relacionamento parcial-total
-- Relacionamento parcial-parcial
+- ~Relacionamento parcial-total~
+- ~Relacionamento parcial-parcial~
 - ~Relacionamento identificador (Entidade Fraca)~
 - ~Relacionamento Unário (Auto Relacionamento)~
 - ~Relacionamento 1:1 ou 1:N~
