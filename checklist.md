@@ -1,7 +1,7 @@
 Para que os projetos alcancem a nota máxima (10 - dez), esses devem ter os seguintes conceitos, os quais podem ser combinados em uma única construção.
 
 - ~Atributo composto~
-- Atributo discriminador em relacionamento
+- ~Atributo discriminador em relacionamento~
 - ~Atributo multivalorado~
 
 - ~Relacionamento parcial-total~
