@@ -7,7 +7,7 @@
 - A user has an email, created date and a username. 
 - A video has a title, created date and a video file.
 
-- One user may subscribe to many channels. 
+- One user may subscribe to many channels and the subscription has a date. 
 - One channel may be subscribed by many users.
 
 - One video can have many comments. 
