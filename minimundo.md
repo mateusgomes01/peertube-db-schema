@@ -2,24 +2,23 @@
 
 ## minimundo
 
-- A peertube instance has many user, each user may own many channels, each channel may have many videos.
+- A peertube instance has many _User_, each user may own many _channels_, each _Channel_ may have many _videos_.
 
-- A user has an email, created date and a username. 
-- A video has a title, created date and a video file.
+- A _User_ has an email, created date and a username. 
+- A _Video_ has a title, created date and a _Video_ file.
 
 - One user may subscribe to many channels and the subscription has a date. 
-- One channel may be subscribed by many users.
+- One _Channel_ may be subscribed by many _Users_.
 
-- One video can have many comments. 
-- A comment may belongs to one video only. 
+- One _Video_ can have many _Comments_. 
+- A _Comment_ may belongs to one _Video_ only. 
 - A user may comment on a video.
-- One video may be commented by many users. 
-- A comment may have a donation to the channel owner by the user making that comment. 
-- A donation has a value.
-- A comment has an author, created_at and a text.
+- A _Video_ must have a _Channel_.
+- A _Video_ may be commented by many _Users_.
+- A _Comment_ has an id, created_at and a text.
 
-- A user may be a common user or and Admin.
-- An Admin may delete many users and a user may be deleted by one admin.
+- A user may be a common _User_ or and _Admin_.
+- An _Admin_ may delete many comments and a _Comment_ can be deleted by one _Admin_.
 
-- A user may makes many comments.
-- One comment may be made by one user.
+- An _User_ may makes many _Comments_.
+- One _Comment_ may be made by one _User_.
