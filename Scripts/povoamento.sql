@@ -19,6 +19,7 @@ INSERT INTO phone(user_id, phone) VALUES ('00006', '123123');
 INSERT INTO channel(id, created_at, ch_name, owner) VALUES ('55555', TO_DATE('11/10/3333', 'dd/MM/yyyy'), 'channel55555', '00004');
 INSERT INTO channel(id, created_at, ch_name, owner) VALUES ('66666', TO_DATE('22/11/4444', 'dd/MM/yyyy'), 'channel66666', '00005');
 INSERT INTO channel(id, created_at, ch_name, owner) VALUES ('77777', TO_DATE('30/12/5555', 'dd/MM/yyyy'), 'channel77777', '00006');
+INSERT INTO channel(id, created_at, ch_name, owner) VALUES ('88888', TO_DATE('12/10/3333', 'dd/MM/yyyy'), 'channel88888', '00004');
 
 INSERT INTO video(channel_id, disc, created_at, vd_name, video_file) VALUES ('55555', '00001', TO_DATE('11/11/1111', 'dd/MM/yyyy'), 'video55555', 'video_file55555');
 INSERT INTO video(channel_id, disc, created_at, vd_name, video_file) VALUES ('66666', '00002', TO_DATE('12/12/1212', 'dd/MM/yyyy'), 'video66666', 'video_file66666');
