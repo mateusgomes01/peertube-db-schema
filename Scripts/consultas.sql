@@ -71,3 +71,13 @@ WHERE coment.video_disc IS NULL
 -- Printando os vídeos que existem, mas não tem comentário.
 
 
+-- Consulta com GroupBy/Having e INNER JOIN
+
+SELECT Common.cm_name, Count (Channel.id)
+	FROM Common
+INNER JOIN Channel
+	ON Common.id = Channel.owner
+GROUP BY Common.cm_name
+	HAVING Count(Channel.id) > 1
+  
+-- Exibe os usuário common com mais de um canal
